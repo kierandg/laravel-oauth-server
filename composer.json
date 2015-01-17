@@ -1,0 +1,25 @@
+{
+    "name": "gponster/laravel-oauth-server",
+    "description": "Based-on  OAuth Consumer And Server Library For PHP at https://code.google.com/p/oauth-php/",
+    "authors": [
+        {
+            "name": "Vu Dang a.k.a Gponster",
+            "email": "anhvudg@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "4.2.*"
+    },
+    "autoload": {
+	    "classmap": [
+	        "src/controllers",
+	        "src/views",
+	        "src/models"
+	    ],
+        "psr-0": {
+            "Gponster\\OAuth\\Provider": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
