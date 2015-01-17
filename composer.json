@@ -1,6 +1,8 @@
 {
     "name": "gponster/laravel-oauth-server",
     "description": "Based-on  OAuth Consumer And Server Library For PHP at https://code.google.com/p/oauth-php/",
+    "keywords": ["Laravel", "OAuth", "OAuth1.0", "OAuth Provider", "OAuth Server"],
+    "license": "MIT",
     "authors": [
         {
             "name": "Vu Dang a.k.a Gponster",
